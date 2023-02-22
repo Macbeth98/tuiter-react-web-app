@@ -6,7 +6,7 @@ function NavigationSidebar(activeComponent) {
       activeComponent === 'home' ? 'active' : ''
     }" id="home"><i class="fa fa-solid fa-house-chimney"></i>
       <span class="d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-none wd-block-float"> Home</span></a>
-    <a href="../explore/index.html" class="list-group-item list-group-item-action ${
+    <a href="../exploreScreen/index.html" class="list-group-item list-group-item-action ${
       activeComponent === 'explore' ? 'active' : ''
     }" id="explore"><i class="fa fa-regular fa-hashtag"></i>
       <span class="d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-none wd-block-float"> Explore</span></a>

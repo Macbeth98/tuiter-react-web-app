@@ -1,0 +1,303 @@
+.wd-grid-row {
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.wd-grid-col-80 {
+  width: 80%;
+  float: left;
+}
+
+.wd-search-input {
+  background-color: darkgray;
+  color: white;
+  width: 100%;
+  height: 25px;
+  border-radius: 15px;
+}
+
+.wd-grid-col-20 {
+  width: 20%;
+  float: left;
+}
+
+.wd-cog-icon {
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  float: right;
+  padding-right: 12px;
+}
+
+.wd-nav-tabs {
+  padding: 0px;
+  /* margin-left: 16px; */
+}
+
+.wd-nav-tabs li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 16px;
+  font-size: 15px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-nav-tabs .wd-selected {
+  border-bottom: solid 4px rgb(29, 161, 242);
+  color: rgb(29, 161, 242);
+}
+
+.wd-nav-separator {
+  height: 8px;
+  background-color: rgb(47, 51, 54); 
+  border-color: rgb(47, 51, 54);
+}
+
+.wd-list-style-none {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.wd-width-full {
+  width: 100%;
+}
+
+.wd-height-120 {
+  height: 120px;
+}
+
+.wd-height-50 {
+  height: 50px;
+}
+
+.wd-height-25 {
+  height: 25px;
+}
+
+.wd-font-bold {
+  font-weight: bold;
+}
+
+.wd-img-100 {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 16px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+
+.wd-text-icon {
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+}
+
+.wd-padding-top-6{
+  padding-top: 6px;
+}
+
+.wd-height-75 {
+  height: 75px;
+}
+
+.wd-margin-top-8 {
+  margin-top: 8px;
+}
+
+.wd-border-solid {
+  border: solid 1px rgb(239, 243, 244);
+  border-top: 0px;
+}
+
+.fa-stack-1x.wd-text-align-padding-left {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.wd-padding-left-19{
+  padding-left: 19px;
+}
+
+.btn.wd-border-radius {
+  border-radius: 20px;
+}
+
+.btn.wd-width-full {
+  width: 100%;
+}
+
+.wd-img-48 {
+  width: 48px;
+  height: 48px;
+}
+
+.wd-img-li-main {
+  width: 78px;
+  height: 78px;
+}
+
+.wd-main-li-img-col {
+  align-content: center;
+  display: grid;
+}
+
+.wd-padding-0 {
+  padding: 0px;
+}
+
+.wd-border-radius-48 {
+  border-radius: 48px;
+}
+
+.input-group-text.wd-search {
+  background-color: #eff3f4;
+  border: 0px;
+  border-radius: 25px;
+}
+
+.form-control.wd-input {
+  border: 0px;
+  border-radius: 25px;
+  background-color: #eff3f4;
+}
+
+.wd-color-primary {
+  color: #0f1419;
+}
+
+.wd-float-right {
+  float: right;
+}
+
+.mb-3.wd-margin-bottom {
+  margin-bottom: 0.5rem !important;
+}
+
+.wd-text-on-img {
+  bottom: 1px;
+  position: absolute;
+  color: white;
+  left: 15px;
+}
+
+.wd-text-color-greyish {
+  color: rgb(83, 100, 113);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.wd-main-div-text {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.d-xxl-block.wd-d-xxl-block-inline {
+  display: inline-block !important;
+}
+
+.wd-block-float {
+  float: right;
+  left: 50px;
+  top: 8px;
+  position: absolute;
+}
+
+.list-group-item.wd-border-none {
+  border: 0px;
+}
+
+.list-group-item.wd-bold-active {
+  color: black;
+  background-color: inherit;
+  font-weight: bolder;
+}
+
+.list-group-item.wd-border-radius-top {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.list-group-item.wd-border-radius-bottom {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.fa-regular.wd-font-bolder {
+  font-weight: bolder;
+}
+
+.fa-solid.wd-font-weight-500, .fas.wd-font-weight-500 {
+  font-weight: 500;
+}
+
+.fa-inverse.wd-color-black {
+  color: black;
+}
+
+.wd-bg-color-gray {
+  background-color: rgb(247, 249, 249);
+  /* background-color: #EFF3F4; */
+  /* background-color: #f7f9f9; */
+  /* background-color: #B6BDC2; */
+}
+
+.wd-padding-follow {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.btn-primary.wd-button-color {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-primary.wd-button-tweet {
+  background-color: #1D9BF0;
+  border-color: #1D9BF0;
+}
+
+.btn.wd-padding-button {
+  padding: 0.15rem 0.75rem;
+}
+
+
+.nav-item.wd-width-20 {
+  width: 20%;
+}
+
+.nav-link.active.wd-nav-active {
+  color: #0F1419;
+  font-weight: bold;
+  background-color: inherit;
+  padding-bottom: 0px;
+}
+
+.nav-link.wd-nav-normal {
+  color: #64737F;
+  font-weight: 600;
+}
+
+.wd-nav-active {
+  color: #0F1419;
+  font-weight: bold;
+  border-bottom: solid 4px #1D9BF0;
+  background-color: inherit;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.wd-main-search-div-margin {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.wd-sub-text-color {
+  color: #536471;
+  font-weight: 500;
+}
+
+.fa-brands.wd-t {
+  color: #1D9BF0;
+  font-weight: 600;
+}
