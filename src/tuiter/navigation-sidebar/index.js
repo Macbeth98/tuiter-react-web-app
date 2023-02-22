@@ -7,9 +7,9 @@ const NavigationSidebar = () => {
   const { pathname } = useLocation();
   const paths = pathname.split('/');
   const active = paths[2];
-  if (!active) {
-    window.location.replace('/tuiter/explore');
-  }
+  // if (!active) {
+  //   window.location.replace('/tuiter/explore');
+  // }
   return (
     <div className="list-group">
       <a className="list-group-item">Tuiter</a>
