@@ -377,3 +377,23 @@
 .wd-text-size-13 {
   font-size: 13px;
 }
+
+.wd-profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 16px;
+  position: relative;
+  top: -50px;
+}
+
+.btn.wd-profile-edit-button {
+  background-color: white;
+  color: black;
+  border-color: rgb(110, 118, 125);
+}
+
+.wd-text-bold {
+  font-weight: bold;
+  color: black;
+}

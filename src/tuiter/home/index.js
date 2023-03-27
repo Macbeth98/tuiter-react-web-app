@@ -2,12 +2,17 @@ import React from 'react';
 import './index.css';
 // import NavigationSidebar from '../navigation-sidebar';
 // import PostSummaryList from '../post-summary-list';
-import PostList from '../postList';
+// import PostList from '../postList';
+import TuitsList from '../tuits';
+import WhatsHappening from './whats-happening';
 
 const HomeComponent = () => {
   return (
-    <div className="wd-border-center wd-padding-0">
-      <PostList />
+    <div>
+      <h4>Home</h4>
+      <WhatsHappening />
+      <TuitsList />
+      {/* <PostList /> */}
     </div>
 
     // <div className="row mt-2">

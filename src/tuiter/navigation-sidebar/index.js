@@ -6,10 +6,8 @@ import { useLocation } from 'react-router';
 const NavigationSidebar = () => {
   const { pathname } = useLocation();
   const paths = pathname.split('/');
-  const active = paths[2];
-  // if (!active) {
-  //   window.location.replace('/tuiter/explore');
-  // }
+  const active = paths[2] || 'home';
+
   return (
     <div className="list-group">
       <a className="list-group-item">Tuiter</a>
@@ -54,12 +52,13 @@ const NavigationSidebar = () => {
       >
         Lists
       </a>
-      <a
+      <Link
+        to="/tuiter/profile"
         className={`list-group-item
                     ${active === 'profile' ? 'active' : ''}`}
       >
         Profile
-      </a>
+      </Link>
       <a
         className={`list-group-item
                     ${active === 'more' ? 'active' : ''}`}
