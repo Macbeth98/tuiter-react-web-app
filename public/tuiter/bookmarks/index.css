@@ -112,6 +112,10 @@
   width: 25%;
 }
 
+.wd-width-20 {
+  width: 20%;
+}
+
 .wd-display-block {
   display: inline-block;
 }
