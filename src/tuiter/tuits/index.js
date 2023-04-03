@@ -9,7 +9,7 @@ const TuitsList = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(findTuitsThunk());
-  }, []);
+  }, [dispatch]);
   return (
     <div className="wd-border-center wd-padding-0">
       {loading ? (
