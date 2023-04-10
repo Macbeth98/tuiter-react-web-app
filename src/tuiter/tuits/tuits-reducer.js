@@ -12,23 +12,6 @@ const initialState = {
   loading: false,
 };
 
-// const currentUser = {
-//   userName: 'NASA',
-//   handle: '@nasa',
-//   image:
-//     'https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_400x400.jpg',
-// };
-
-// const templateTuit = {
-//   ...currentUser,
-//   topic: 'Space',
-//   time: '2h',
-//   liked: false,
-//   replies: 0,
-//   retuits: 0,
-//   likes: 0,
-// };
-
 const tuitsSlice = createSlice({
   name: 'tuits',
   initialState,
@@ -51,7 +34,8 @@ const tuitsSlice = createSlice({
     },
     [createTuitThunk.fulfilled]: (state, { payload }) => {
       state.loading = false;
-      state.tuits.push(payload);
+      // state.tuits.push(payload);
+      state.tuits = [payload, ...state.tuits];
     },
     [updateTuitThunk.fulfilled]: (state, { payload }) => {
       state.loading = false;
